@@ -4,6 +4,7 @@ import { Carrito } from './pages/carrito/carrito';
 import { Rubro } from './pages/rubro/rubro';
 import { Buscar } from './pages/buscar/buscar';
 import { Home } from './pages/home/home';
+import { Perfil } from './pages/perfil/perfil';
 
 export const routes: Routes = [
     {
@@ -26,4 +27,8 @@ export const routes: Routes = [
         path: "Buscar",
         component: Buscar
     },
+    {
+        path: "Perfil",
+        component: Perfil
+    }
 ];
